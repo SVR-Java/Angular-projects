@@ -1,0 +1,6 @@
+<div class="search-div">
+    <span><b>search:</b></span>
+    <!--input type="text" (input)="changeSearchValue($event)"-->
+    <input type="text" [(ngModel)] = "serachValue">
+    <span *ngIf="serachValue != '' ">You are searched for " {{serachValue}}"</span>
+</div>
