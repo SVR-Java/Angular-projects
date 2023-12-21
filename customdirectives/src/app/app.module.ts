@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {setBackgroundDirective} from './CustomeDirective/setbackground.directive';
 import { HighlightDirective } from './CustomeDirective/highlight.directive';
+import { HoverDirective } from './CustomeDirective/hover.directive';
+import { BeterHighlighterDirective } from './CustomeDirective/beter-highlighter.directive';
 @NgModule({
   declarations: [
     AppComponent,
     setBackgroundDirective,
-    HighlightDirective
+    HighlightDirective,
+    HoverDirective,
+    BeterHighlighterDirective
   ],
   imports: [
     BrowserModule,
